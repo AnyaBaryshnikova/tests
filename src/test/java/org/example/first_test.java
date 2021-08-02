@@ -137,7 +137,7 @@ public class first_test {
 
     @After
     public void after() {
-        driver.close();
+        driver.quit();
     }
 
 
